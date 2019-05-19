@@ -1,4 +1,5 @@
 {
+  "name": "chainlink",
   "private": true,
   "license": "MIT",
   "workspaces": [
@@ -15,6 +16,10 @@
     "lint:operator-ui": "eslint --color --ext .js --ext .jsx --ext .ts --ext .tsx ./gui",
     "lint:evm": "eslint --color --ext .js --ext .jsx --ext .ts --ext .tsx ./evm",
     "lint:examples": "eslint --color --ext .js --ext .jsx --ext .ts --ext .tsx ./examples"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/opz/chainlink.git"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
